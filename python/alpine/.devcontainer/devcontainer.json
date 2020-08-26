@@ -1,0 +1,20 @@
+{
+    "name": "Python Alpine",
+    "dockerComposeFile": [
+        "../docker-compose.yml"
+    ],
+    "service": "python",
+    "remoteUser": "vscode",
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/ash"
+    },
+    "workspaceFolder": "/workspace",
+    "extensions": [
+       "ms-python.python",
+       "formulahenry.code-runner"
+    ],
+    "remoteEnv": {
+        "COMPOSE_PROJECT_NAME": "devcontainers-python-alpine"
+    }
+    
+}
